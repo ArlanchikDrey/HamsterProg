@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mathIncre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Операторы Инкеремента и Декремента"
+                android:textColor="#2D264F"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/textAboutIncre"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_below="@id/mathIncre"
+                android:layout_marginTop="26dp"
+                android:textColor="#2D264F"
+                android:textSize="17sp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/mathExampleIncre"
+                android:layout_below="@id/textAboutIncre"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#CFE3E8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textExaplesMath"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mathExampleIncre2"
+                android:layout_below="@id/mathExampleIncre"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#CFE3E8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textExaplesMath2"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/mathIncre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mathExampleIncre2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="Префикс и Постфикс"
+                android:textColor="#2D264F"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/textAboutIncre2"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/mathIncrePost"
+                android:layout_below="@id/mathIncre2"
+                android:layout_marginTop="26dp"
+                android:textColor="#2D264F"
+                android:textSize="17sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textAboutIncre3"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/textAboutIncre2"
+                android:layout_marginTop="26dp"
+                android:text="@string/mathAboutPrefics"
+                android:textColor="#2D264F"
+                android:textSize="17sp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/mathExampleIncrePre"
+                android:layout_below="@id/textAboutIncre3"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#CFE3E8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textExaplesMathPre"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textAboutIncre4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mathExampleIncrePre"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="26dp"
+                android:text="@string/mathAboutPost"
+                android:textColor="#2D264F"
+                android:textSize="17sp" />
+
+            <RelativeLayout
+                android:id="@+id/mathExampleIncrePost"
+                android:layout_below="@id/textAboutIncre4"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#CFE3E8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textExaplesMathPost"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/onNextMathIncre"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Далее"
+                android:layout_below="@id/mathExampleIncrePost"
+                android:textColor="#fcfcfc"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_style_welcome_white" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

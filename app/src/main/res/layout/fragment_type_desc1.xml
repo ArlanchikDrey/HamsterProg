@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollViewType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/whatIsVariable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#2D264F"
+                android:textSize="21sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:text="Что такое переменная?" />
+
+            <TextView
+                android:id="@+id/varible1"
+                android:layout_width="match_parent"
+                android:layout_below="@id/whatIsVariable"
+                android:layout_marginTop="35dp"
+                android:textColor="#2D264F"
+                android:textSize="18sp"
+                android:lineSpacingExtra="2dp"
+                android:gravity="center"
+                android:text="@string/aboutVariable1"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/varible2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/varible1"
+                android:layout_marginTop="15dp"
+                android:textColor="#2D264F"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/aboutVariable2"/>
+
+            <ImageView
+                android:id="@+id/imageVariable"
+                android:layout_below="@id/varible2"
+                android:layout_marginTop="15dp"
+                android:layout_width="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="200dp" />
+
+            <Button
+                android:id="@+id/onNextType"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Далее"
+                android:layout_below="@id/imageVariable"
+                android:textColor="#fcfcfc"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_style_welcome_white" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

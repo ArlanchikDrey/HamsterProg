@@ -1,0 +1,636 @@
+<resources>
+    <string name="app_name">HamsterProg</string>
+    <string name="Next">Продолжить</string>
+
+    <string name="regist">Регистрация</string>
+    <string name="forgot">Забыл пароль?</string>
+    <string name="sign">Вход</string>
+
+    <string name="алгоритм">"Алгоритм - это последовательность действий для достижения поставленной цели."</string>
+    <string name="языки_программирования"> Язык программирования - это язык, с помощью которого мы можем общаться с компьютером.</string>
+    <string name="программа"> Программа - это алгоритм, записанный на некотором языке программирования.</string>
+
+    <string name="aboutVariable1"> Для хранения информации в программировании используются переменные.
+        Им задается имя(или идентификатор).
+        Имя уникально идентифицирует каждую переменную.\n
+        Оно должно содержать буквы, цифры и символ нижнего подчеркивания (_)
+        и должно начинаться с буквы или нижнего подчеркивания.\n
+        Хоть именем переменной может быть любой набор букв и цифр,
+        наилучший идентификатор является описанием информации, которую он содержит.\n
+        Пример: \n   age, name.\n\n
+        Это важно для создания читаемого кода.\n
+
+        После имени переменным присваивается значение \n(age = 15, name = "Дмитрий").</string>
+
+    <string name="aboutVariable2">
+        Переменную можно рассматривать как коробку. Сделав такую коробку, мы можем класть в неё разные вещи(значения).
+    </string>
+
+    <string name="aboutType1">
+        Тип данных определяет информацию,
+        которая может храниться в переменной, размер необходимой памяти и операции,
+        которые могут выполняться с переменной.\n\n
+        Рассмотрим пример хранения целого числа в переменной с типом int:
+    </string>
+
+    <string name="integer">
+        <![CDATA[
+        <font color=\'#3F1DE2\'>int</font>
+         age = 18;
+
+        ]]></string>
+
+    <string name="aboutTepys">
+
+        <![CDATA[
+            Рассмотрим основные типы данных на примере языка C#:
+                         <br>
+                         <br>
+             <font color=\'#3F1DE2\'>float</font>  - число с плавающей точкой.
+                         <br>
+             <font color=\'#3F1DE2\'>double</font>  - число с плавающей точкой удвоенной точности.
+                         <br>
+             <font color=\'#3F1DE2\'>char</font> c - один символ.
+                         <br>
+             <font color=\'#3F1DE2\'>bool</font>  - булевый тип, который может иметь только два значения: True (Истина) или False (Ложь).
+                         <br>
+             <font color=\'#3F1DE2\'>string</font> - последовательность символов char[].
+                         <br>
+        ]]>
+    </string>
+
+    <string name="aboutTepys2">
+         <![CDATA[
+        <font color=\'#3F1DE2\'>double</font> pi =
+         <font color=\'#307F1F\'>3.14</font>
+                                 <br>
+        <font color=\'#3F1DE2\'>char</font> y =
+        <font color=\'#307F1F\'>"'c'"</font>
+                                 <br>
+        <font color=\'#3F1DE2\'>bool</font> isOnline =
+        <font color=\'#307F1F\'>true</font>
+                                 <br>
+        <font color=\'#3F1DE2\'>string</font> firstName =
+        <font color=\'#307F1F\'>""David""</font>
+        ]]>
+    </string>
+
+    <string name="idText123">
+            <![CDATA[
+         isValue =
+         <font color=\'#2173C0\'>false</font>;
+        ]]>
+    </string>
+
+    <string name="textCharState">
+            <![CDATA[
+         <font color=\'#378A14\'>char </font>
+         firstValue = <font color=\'#2173C0\'>"'А'"</font>;
+
+        ]]>
+    </string>
+
+    <string name="idText12334">
+           <![CDATA[
+         x =
+         <font color=\'#2173C0\'>42.8</font>;
+        ]]>
+    </string>
+
+    <string name="mathExamles">
+         <![CDATA[
+        <font color=\'#3F1DE2\'>int</font> x =
+         <font color=\'#307F1F\'>3</font>
+                                 <br>
+        <font color=\'#3F1DE2\'>int</font> y =
+        <font color=\'#307F1F\'>5</font>
+                                 <br>
+        <font color=\'#3F1DE2\'>int</font> result =
+        <font color=\'#307F1F\'>x + y  </font>
+                                 <br>
+        // result = 8
+        ]]>
+    </string>
+
+    <string name="mathTest1">
+         <![CDATA[
+        <font color=\'#3F1DE2\'>int</font> x = 10
+                                 <br>
+        <font color=\'#3F1DE2\'>int</font> y = 20
+                                 <br>
+        <font color=\'#3F1DE2\'>int</font> result =
+
+        ]]>
+    </string>
+
+    <string name="mathsd">
+        int x = 10;
+        \n
+        int y = 2;
+        \n
+        int x = 3
+    </string>
+
+    <string name="mathIncre">
+        <![CDATA[
+      Данные операторы предоставляют удобный и компактный способ увеличения или уменьшения значения
+      переменной на
+      <font color=\'#314BD3\'>единицу</font>.
+      ]]>
+    </string>
+
+    <string name="mathIncre2">
+         <![CDATA[
+        <font color=\'#9E9E9E\'>// инкремент </font>
+                                 <br>
+                                 <br>
+         <font color=\'#314BD3\'>int</font> x = 10;
+                                 <br>
+                                 <br>
+         ++x;<font color=\'#9E9E9E\'>   // x = 11 </font>
+
+        ]]>
+    </string>
+
+    <string name="mathIncre3">
+         <![CDATA[
+        <font color=\'#9E9E9E\'>// декремент </font>
+                                 <br>
+                                 <br>
+         <font color=\'#314BD3\'>int</font> x = 10;
+                                 <br>
+                                 <br>
+         --x;<font color=\'#9E9E9E\'>   // x = 9 </font>
+
+        ]]>
+    </string>
+
+    <string name="mathIncrePost">
+        Операторы инкремента и декремента могут быть использованы в двух формах,
+        в префиксной и постфиксной. Ниже представлено разъяснение, как работают обе формы:
+    </string>
+
+    <string name="mathAboutPrefics">
+        Префикс инкрементирует значение переменной и использует новое значение в выражении.
+    </string>
+
+    <string name="mathPrefics">
+            <![CDATA[
+        <font color=\'#314BD3\'>int</font> x = 10;
+                                 <br>
+         <font color=\'#314BD3\'>int</font> y = ++x;
+         <font color=\'#9E9E9E\'>// y = 11</font>
+                                 <br>
+        ]]>
+    </string>
+
+    <string name="mathAboutPost">
+        В постфиксе значение переменной сначала используется в выражении и только затем увеличивается.
+    </string>
+
+    <string name="mathPostfics">
+            <![CDATA[
+        <font color=\'#314BD3\'>int</font> x = 10;
+                                 <br>
+         <font color=\'#314BD3\'>int</font> y = x++;
+         <font color=\'#9E9E9E\'>// y = 10</font>
+                                 <br>
+        ]]>
+    </string>
+
+    <string name="mathTestPost">
+        int age = 25;\nint count = age++;
+
+    </string>
+
+    <string name="condDescAboutIf">
+           <![CDATA[
+        <font color=\'#2D264F\'>Выражение if </font>
+        является одним из наиболее часто используемых выражений.
+        Если выражение условного оператора
+        <font color=\'#2D264F\'>if </font>
+        является
+         <font color=\'#2D264F\'>истинным </font>,
+        то будет выполнен блок кода внутри выражения
+        <font color=\'#2D264F\'> if </font>. Если выражение окажется ложным,
+        то будет выполнен код, находящийся сразу после конца выражения if (после закрывающей фигурной скобки).
+        ]]>
+    </string>
+
+    <string name="condExampleIf">
+            <![CDATA[
+        <font color=\'#D018FF\'>if </font> (  <font color=\'#2D264F\'>условие</font> ) {
+                                <br>
+                                <br>
+                   // здесь код выполняется когда условие будет верно
+                                <br>
+                                <br>
+        }
+
+        ]]>
+    </string>
+
+    <string name="condExampleIfElse">
+            <![CDATA[
+            <font color=\'#2D264F\'>int age = 18;</font>
+                                <br>
+                                <br>
+        <font color=\'#D018FF\'>if </font> (  <font color=\'#2D264F\'>age == 20</font> ) {
+                                <br>
+                                <br>
+                   Выводим текст("Да");
+                                <br>
+                                <br>
+        }<font color=\'#D018FF\'>else </font>{
+                                <br>
+                                <br>
+                   Выводим текст("Нет");
+                                <br>
+                                <br>
+        }
+
+        ]]>
+    </string>
+
+    <string name="condVariables">
+          <![CDATA[
+        <font color=\'#450057\'>double</font> height = 10.54;
+                                 <br>
+         <font color=\'#450057\'>double</font> wight = 10.23;
+
+        ]]>
+    </string>
+
+    <string name="condTestIf">
+            <![CDATA[
+
+        <font color=\'#D018FF\'>if </font> (  <font color=\'#2D264F\'>height >= wight</font> ) {
+                                <br>
+                                <br>
+                   Выводим число( <font color=\'#2D264F\'>height</font>);
+                                <br>
+                                <br>
+        }<font color=\'#D018FF\'>else </font>{
+                                <br>
+                                <br>
+                   Выводим число( <font color=\'#2D264F\'>wight</font>);
+                                <br>
+                                <br>
+        }
+
+        ]]>
+    </string>
+
+    <string name="aboutLoop">
+          <![CDATA[
+        <font color=\'#1A317F\'>Циклы </font>позволяют вам повторно выполнять код.
+
+        ]]>
+    </string>
+
+    <string name="aboutWhile">
+          <![CDATA[
+        Код внутри цикла<font color=\'#1A317F\'> while </font>повторно выполняется, пока заданное
+        условие истинно.
+
+        ]]>
+    </string>
+
+    <string name="whileExample">
+                 <![CDATA[
+            <font color=\'#7F1A3C\'>int </font> <font color=\'#2D264F\'>x = 0;</font>
+                                <br>
+                                <br>
+        <font color=\'#7F1A3C\'>while </font> (  <font color=\'#2D264F\'>x < 3</font> ) {
+                                <br>
+                                <br>
+                   Выводим текст("Привет");
+                                <br>
+                                x++;
+                                <br>
+        }
+                                        <br>
+                                                                        <br>
+                                        Вывод:
+                                        <br>
+                                        Привет
+                                         <br>
+                                         Привет
+                                         <br>
+                                         Привет
+
+
+        ]]>
+    </string>
+
+    <string name="doWhileExample">
+                 <![CDATA[
+            <font color=\'#7F1A3C\'>int </font> <font color=\'#2D264F\'>x = 1;</font>
+                                <br>
+                                <br>
+        <font color=\'#7F1A3C\'>do </font> {
+                                <br>
+                                <br>
+                   Выводим текст("Привет");
+                                <br>
+                                x++;
+                                <br>
+        } <font color=\'#7F1A3C\'> while </font> (  <font color=\'#2D264F\'>x > 10</font> );
+                                      <br>
+                                                                        <br>
+                                        Вывод:
+                                        <br>
+                                        Привет
+        ]]>
+    </string>
+
+    <string name="whileTest">
+                 <![CDATA[
+            <font color=\'#7F1A3C\'>int </font> <font color=\'#2D264F\'>x = 3;</font>
+                                <br>
+                                <br>
+        <font color=\'#7F1A3C\'>do </font> {
+                                <br>
+                                <br>
+                   Выводим текст("Привет");
+                                <br>
+                                x--;
+                                <br>
+                                                                <br>
+        } <font color=\'#7F1A3C\'> while </font> (  <font color=\'#2D264F\'>x >= 0</font> );
+
+        ]]>
+    </string>
+
+    <string name="ForExample">
+                 <![CDATA[
+            <font color=\'#7F1A3C\'>int </font> <font color=\'#2D264F\'>x = 3;</font>
+                                <br>
+                                <br>
+        <font color=\'#7F1A3C\'>for </font>
+        ( <font color=\'#7F1A3C\'>int </font>  <font color=\'#2D264F\'>y = 0; y < 3; y++ </font> ) {
+                                <br>
+                                <br>
+                   Выводим текст("Привет");
+                                <br>
+                                <br>
+        }
+                                        <br>
+                                                                        <br>
+                                        Вывод:
+                                        <br>
+                                        Привет
+                                         <br>
+                                         Привет
+                                         <br>
+                                         Привет
+
+
+        ]]>
+    </string>
+
+    <string name="ForTest">
+                 <![CDATA[
+            <font color=\'#7F1A3C\'>int </font> <font color=\'#2D264F\'>x = 0;</font>
+                                <br>
+                                <br>
+        <font color=\'#7F1A3C\'>for </font>
+        ( <font color=\'#7F1A3C\'>int </font>  <font color=\'#2D264F\'>y = 10; y > x; y-- </font> ) {
+                                <br>
+                                <br>
+                   Выводим текст("Пока");
+                                <br>
+                                <br>
+        }
+
+        ]]>
+    </string>
+
+    <string name="aboutArray">
+          <![CDATA[
+        <font color=\'#008B8B\'>Массив </font>является коллекцией переменных одного типа.
+        Если вам нужно хранить список значений, например чисел, то вы можете хранить их в массиве,
+         вместо объявления отдельных переменных для каждого числа.
+
+        ]]>
+    </string>
+
+    <string name="exampleArray">
+          <![CDATA[
+        <font color=\'#98064D\'>int </font> [ ] arr;
+
+        ]]>
+    </string>
+
+    <string name="aboutExampleArray">
+        Имя массива arr. Содержит тип элементов int. \n\n
+        Затем вам необходимо определить длину массива(количество хранимых в нем элементов).\n
+        Пример на языке Java.
+
+    </string>
+
+    <string name="exampleArrayJava">
+          <![CDATA[
+        <font color=\'#98064D\'>int </font> [ ] arr =  <font color=\'#98064D\'> new int</font>[3];
+                                    <br>
+                                    <br>
+        <font color=\'#BABABA\'>// присваем значение элементам массива </font>
+                                    <br>
+        <font color=\'#BABABA\'>// для этого введем имя массива с его индексом, индекс массива начинается с 0 </font>
+                                    <br>
+        arr[0] = 15;
+         <br>
+        arr[1] = 25;
+         <br>
+        arr[2] = 14;
+         <br>
+                                      <br>
+        <font color=\'#BABABA\'>// выведем значение элемента массива на позиции 1 </font>
+                                    <br>
+                                    вывод числа( arr[1] );
+                                             <br>
+        <font color=\'#BABABA\'>// вывод: 25 </font>
+                                    <br>
+
+        ]]>
+    </string>
+
+    <string name="testArrayJava">
+          <![CDATA[
+        <font color=\'#98064D\'>string </font> [ ] arr = {"Ваня", "Дима", "Андрей","Даша"};
+                                    <br>
+                                    <br>
+                                    вывод слова( arr[3] );
+                                             <br>
+
+
+        ]]>
+    </string>
+
+    <string name="aboutFun">
+          <![CDATA[
+        <font color=\'#008B8B\'>Функции  </font>позволяют уменьшить размер программы за счет того,
+         что не нужно повторно писать какой-то фрагмент кода -
+         мы просто вызываем сколько угодно и где нужно объявленную функцию.
+        ]]>
+    </string>
+
+    <string name="funAnnounceExample">
+          <![CDATA[
+        <font color=\'#4D8F28\'>[тип возвращаемого значения] [имя функции] </font>
+        (<font color=\'#4D8F28\'> [аргументы] </font>)
+                                    <br>
+        {
+         <br>
+          <br>
+                // тело функции
+                 <br>
+                  <br>
+        }
+         <br>
+        ]]>
+    </string>
+
+    <string name="aboutFunTypeReturn">
+          <![CDATA[
+          Функция может возвращать значение или не возвращать.
+          Если функция, например, возвращает целое число,
+          то нужно указать тип возвращаемого значения  <font color=\'#008B8B\'> int</font> .
+          Если функция не возвращает никакого значения, то для этого используется ключевое слово
+          <font color=\'#008B8B\'> void</font> .
+
+        ]]>
+    </string>
+
+    <string name="funVoidExample">
+          <![CDATA[
+        <font color=\'#4D8F28\'>void  run </font>
+        ( )
+                                    <br>
+        {
+         <br>
+          <br>
+                <font color=\'#2D264F\'> вывод текста ("бежать");</font>
+                 <br>
+                  <br>
+        }
+         <br>
+          <font color=\'#4D8F28\'>int getSpeedRun() </font>
+        ( )
+                                    <br>
+        {
+         <br>
+          <br>
+                <font color=\'#2D264F\'> return 15;</font>
+                 <br>
+                  <br>
+        }
+         <br>
+                           <br>
+        <font color=\'#4D8F28\'>void main </font>
+        ( ) // главная функция, в которой вызываются остальные
+                                    <br>
+        {
+         <br>
+          <br>
+               <font color=\'#2D264F\'> run();</font>
+                 <br>
+                 //Вывод : бежать
+                  <br>
+                  <font color=\'#2D264F\'> вывод текста( getSpeedRun(); )</font>
+                 <br>
+                 //Вывод : 15
+                  <br>
+        }
+         <br>
+
+        ]]>
+    </string>
+
+    <string name="textFunTest">
+          <![CDATA[
+       <font color=\'#4D8F28\'>____  getFirstWordName </font>
+        ( )
+                                    <br>
+        {
+         <br>
+          <br>
+                <font color=\'#2D264F\'> return "'A'";</font>
+                 <br>
+                  <br>
+        }
+         <br>
+
+        ]]>
+    </string>
+
+    <string name="funArgsExample">
+          <![CDATA[
+
+         <br>
+          <font color=\'#4D8F28\'>void printAge( int age ) </font>
+        ( )
+                                    <br>
+        {
+         <br>
+          <br>
+                <font color=\'#2D264F\'> вывод текста (age) ;</font>
+                 <br>
+                  <br>
+        }
+         <br>
+                           <br>
+        <font color=\'#4D8F28\'>void main </font>
+        ( )
+                                    <br>
+        {
+         <br>
+          <br>
+               <font color=\'#2D264F\'> printAge(19);</font>
+                 <br>
+                 //Вывод : 19
+                  <br>
+
+        }
+         <br>
+
+        ]]>
+    </string>
+
+
+    <string name="funArgsTest">
+          <![CDATA[
+
+         <br>
+          <font color=\'#4D8F28\'>void print( int x ) </font>
+
+                                    <br>
+        {
+         <br>
+         <font color=\'#2D264F\'> x = x * x; ;</font>
+          <br>
+                <font color=\'#2D264F\'> вывод текста (x) ;</font>
+                 <br>
+                  <br>
+        }
+         <br>
+                           <br>
+        <font color=\'#4D8F28\'>void main </font>
+        ( )
+                                    <br>
+        {
+         <br>
+          <br>
+               <font color=\'#2D264F\'> print(10);</font>
+                 <br>
+
+                  <br>
+
+        }
+         <br>
+
+        ]]>
+    </string>
+
+
+</resources>

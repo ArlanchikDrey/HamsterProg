@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="ru.programminglearning.com.hamsterProg.Basics.BasicActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <Toolbar
+            android:id="@+id/toolBur"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient">
+            <RelativeLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/fvf"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="100dp"
+                    android:src="@drawable/themes"/>
+
+                <TextView
+                    android:layout_below="@id/fvf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Основы программирования"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageButtonLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="14dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+            </RelativeLayout>
+
+
+        </Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyCustomTabLayout"
+            app:tabIndicatorHeight="3dp"
+            android:background="@drawable/gradient"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerBasic"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="match_parent" />
+
+
+</android.support.design.widget.CoordinatorLayout>

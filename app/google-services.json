@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "487291834422",
+    "firebase_url": "https://project123456-ae00e.firebaseio.com",
+    "project_id": "project123456-ae00e",
+    "storage_bucket": "project123456-ae00e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487291834422:android:0e5e04409dff9a63",
+        "android_client_info": {
+          "package_name": "ru.programminglearning.com.project123456"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487291834422-ju169kj1hei51udo0pod4tsm9dkq4dhe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.programminglearning.com.project123456",
+            "certificate_hash": "fcf83d07deff69a343000e509e887ccc00ec39b3"
+          }
+        },
+        {
+          "client_id": "487291834422-o62m7p4dmo85ilat9p40ohup69ksr8hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAH5APHEci19CbnkX-He3yAyM2kYZmJ28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487291834422-o62m7p4dmo85ilat9p40ohup69ksr8hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/divjdjivbdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#2D264F"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:text="Выбери термин и его объяснение" />
+
+            <Button
+                android:id="@+id/textAlgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_style_gray"
+                android:layout_below="@+id/divjdjivbdv"
+                android:gravity="center"
+                android:text="Алгоритм" />
+
+            <Button
+                android:id="@+id/textProg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textAlgo"
+                android:layout_toRightOf="@id/textAlgo"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_style_gray"
+                android:gravity="center"
+                android:text="Программма" />
+
+            <Button
+                android:id="@+id/textLan"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style_gray"
+                android:layout_below="@+id/textAlgo"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Язык программирования" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_style_gray"
+                android:layout_below="@id/button4"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="последовательность действий" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_style_gray"
+                android:layout_below="@id/button3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="алгоритм, записанный на некотором языке программирования" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_style_gray"
+                android:layout_below="@id/textLan"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="10dp"
+                android:text="язык, с помощью которого мы можем общаться с компьютером" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/onAnswer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ответить"
+        android:textColor="#fcfcfc"
+        android:background="@drawable/button_style_welcome_white" />
+
+    <ImageButton
+        android:id="@+id/imageSucccessful"
+        android:layout_width="80dp"
+        android:visibility="gone"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="80dp"/>
+
+</RelativeLayout>

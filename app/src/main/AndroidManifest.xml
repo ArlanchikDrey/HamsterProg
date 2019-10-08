@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.programminglearning.com.project123456">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="03d51d2609b4b94646fbb21cb48e44e95bab1cd7" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.Registration.RegistrationActivityMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/WelcomeTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.Registration.Welcome.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WelcomeTheme" />
+        <activity
+            android:name=".Registration.Authorization.Auth"
+            android:screenOrientation="portrait"
+            android:theme="@style/WelcomeTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.Basics.BasicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.BasicProgramming.BasicProgramming"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.TypeVariables.TypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.MathOperator.MathOperatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.ConditionalOperator.ConditionalOperatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.Сycles.CyclesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.Array.ArrayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+        <activity
+            android:name="ru.programminglearning.com.hamsterProg.BasicsContent.Functions.FunctionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BasicActivityTheme" />
+
+
+    </application>
+
+</manifest>

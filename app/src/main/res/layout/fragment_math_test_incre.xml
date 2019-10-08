@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mathTestPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Чему будет равна переменная count?"
+        android:textColor="#2D264F"
+        android:textSize="23sp" />
+    <TextView
+        android:id="@+id/mathTest2"
+        android:layout_below="@id/mathTestPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/mathTestPost"
+        android:textColor="#2D264F"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/editTextMathTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="2"
+        android:maxLength="2"
+        android:inputType="textPersonName"
+         />
+    <Button
+        android:id="@+id/onNextMathTest2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ответить"
+        android:textColor="#fcfcfc"
+        android:background="@drawable/button_style_welcome_white" />
+</RelativeLayout>

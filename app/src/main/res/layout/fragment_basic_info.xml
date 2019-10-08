@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/id3434"
+                android:layout_marginTop="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2D264F"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="Алгоритм"/>
+            <TextView
+                android:id="@+id/textАлгоритм"
+                android:layout_below="@id/id3434"
+                android:layout_marginTop="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/алгоритм"
+                android:textColor="#2D264F"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/imageАлгоритм"
+                android:layout_below="@id/textАлгоритм"
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="19dp"
+                android:layout_height="200dp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutLanguage"
+                android:layout_below="@id/imageАлгоритм"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/id34343"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2D264F"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="Языки программирования"/>
+                <TextView
+                    android:id="@+id/textЯзыкиПрограммирования"
+                    android:layout_below="@id/id34343"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/языки_программирования"
+                    android:textColor="#2D264F"
+                    android:textSize="17sp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:id="@+id/imageЯзыки"
+                    android:layout_below="@id/textЯзыкиПрограммирования"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_height="200dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeProgram"
+                android:layout_below="@id/relativeLayoutLanguage"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/id343433"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2D264F"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="Программа "/>
+                <TextView
+                    android:id="@+id/textпрограмма"
+                    android:layout_below="@id/id343433"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/программа"
+                    android:textColor="#2D264F"
+                    android:textSize="17sp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:id="@+id/imageПрограмма"
+                    android:layout_below="@id/textпрограмма"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="39dp"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/onClickNext"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fcfcfc"
+        android:background="@drawable/button_style_welcome_white"
+        android:text="Далее"
+         />
+
+
+
+</RelativeLayout>

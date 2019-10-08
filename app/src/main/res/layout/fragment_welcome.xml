@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#fcfcfc"
+tools:context="ru.programminglearning.com.hamsterProg.Registration.Welcome.WelcomeFragment">
+
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewPager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:background="#fcfcfc"
+    android:layout_marginBottom="100dp"
+    >
+
+</android.support.v4.view.ViewPager>
+
+
+<LinearLayout
+    android:id="@+id/dotsLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnNextToLevel"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+</LinearLayout>
+
+
+<Button
+    android:id="@+id/btnNextToLevel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="17dp"
+    android:textColor="#FAFAFA"
+    android:layout_marginRight="110dp"
+    android:background="@drawable/button_style_welcome"
+    android:text="@string/Next"
+    android:textSize="15sp" />
+
+</RelativeLayout>

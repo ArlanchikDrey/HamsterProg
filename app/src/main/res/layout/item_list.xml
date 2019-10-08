@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/basic_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/themeView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/test2"/>
+
+    <TextView
+        android:id="@+id/headName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/themeView"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#0a0a0a"
+        android:layout_marginLeft="10dp"
+        android:text="Основные " />
+
+    <ImageView
+        android:id="@+id/imageArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <TextView
+        android:id="@+id/textCompled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/headName"
+        android:layout_below="@id/headName"
+        android:layout_marginTop="3dp"
+        android:textColor="#495365"
+        android:textSize="13sp" />
+
+</RelativeLayout>

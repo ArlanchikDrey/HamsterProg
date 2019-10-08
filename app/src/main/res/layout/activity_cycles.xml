@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff7f50"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#ff7f50"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textHeadLoop"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:textColor="#fcfcfc"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayoutLoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyCustomTabLayout"
+            app:tabIndicatorHeight="3dp"
+            android:background="#ff7f50"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerLoop"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
