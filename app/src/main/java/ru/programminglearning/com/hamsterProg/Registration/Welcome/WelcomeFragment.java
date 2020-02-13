@@ -213,6 +213,7 @@ public class WelcomeFragment extends Fragment {
         String[] list = {"0/1","0/2","0/2","0/1","0/2","0/1","0/2"};
         return list;
     }
+
     private void onClick(){
         Button button = view.findViewById(R.id.btnNextToLevel);
         button.setOnClickListener(new View.OnClickListener() {
@@ -222,7 +223,5 @@ public class WelcomeFragment extends Fragment {
             }
         });
     }
-
-
 
 }

@@ -35,10 +35,6 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (Build.VERSION.SDK_INT >= 21) {
-            setTranslucentStatus(true);
-        }
-
         if (isOnline(this)){
             if(currentUser==null){
                 startActivity(WelcomeActivity.class);
@@ -51,8 +47,6 @@ public class MainActivity extends AppCompatActivity{
                     }
                 },2400);
             }
-
-
         }else{
 
         }

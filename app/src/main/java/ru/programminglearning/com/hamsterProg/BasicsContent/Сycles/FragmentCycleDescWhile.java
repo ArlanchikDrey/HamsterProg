@@ -45,8 +45,6 @@ public class FragmentCycleDescWhile extends Fragment {
 
         TextView textView2 = view.findViewById(R.id.textDoWhileExample);
         textView2.setText(Html.fromHtml(getString(R.string.doWhileExample)));
-
-
     }
 
     private void onClick(){

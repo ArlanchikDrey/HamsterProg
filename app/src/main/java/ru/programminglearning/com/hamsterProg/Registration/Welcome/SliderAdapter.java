@@ -37,7 +37,6 @@ public class SliderAdapter extends PagerAdapter {
                 "Добро пожаловать в \n HamsterProg",
                 "Изучите основы программирования"
         };
-
         return slide_headings;
     }
 
@@ -80,6 +79,5 @@ public class SliderAdapter extends PagerAdapter {
     @Override
     public void destroyItem( ViewGroup container, int position,  Object object) {
         container.removeView((RelativeLayout)object);
-
     }
 }
