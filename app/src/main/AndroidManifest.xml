@@ -30,10 +30,7 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="03d51d2609b4b94646fbb21cb48e44e95bab1cd7" />
-        <activity
-            android:name="ru.programminglearning.com.hamsterProg.Registration.RegistrationActivityMain"
-            android:screenOrientation="portrait"
-            android:theme="@style/WelcomeTheme" />
+
         <activity
             android:name="ru.programminglearning.com.hamsterProg.Registration.Welcome.WelcomeActivity"
             android:screenOrientation="portrait"

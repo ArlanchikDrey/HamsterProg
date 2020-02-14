@@ -20,7 +20,6 @@ import android.widget.PopupMenu;
 
 import com.google.firebase.auth.FirebaseAuth;
 import ru.programminglearning.com.project123456.R;
-import ru.programminglearning.com.hamsterProg.Registration.Welcome.WelcomeActivity;
 
 public class BasicActivity extends AppCompatActivity {
 
